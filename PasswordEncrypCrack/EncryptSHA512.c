@@ -22,7 +22,7 @@
 
 int main(int argc, char *argv[]){
   
-  printf("%s\n", crypt(argv[1], SALT));
+  printf("%s\n", crypt_r(argv[1], SALT));
 
   return 0;
 }
